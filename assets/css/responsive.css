@@ -1,0 +1,142 @@
+@media screen and (max-width:990px){
+    .services-single-item {
+        height: 240px;
+    }
+}
+/* max-width 767 */
+@media screen and (max-width:767px){
+    .logo {
+        margin-top: 25px;
+    }
+  .full-device{
+    display: none;
+  }
+  .short-device{
+    display: block;
+    }
+    .services-area::before {
+        left: 0;
+        width: 100%;
+    }
+    .services-qr{
+        text-align: center ;
+    }
+    .services-qr img {
+        margin-left: 0;
+        max-width: 70%;
+        margin: auto;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    .lg-padding-left{
+        padding-left: 12px !important;
+    }
+    .services-single-item {
+        height: auto;
+    }
+    .services-content p {
+        max-width: inherit;
+    }
+    .text-order{
+        -webkit-box-ordinal-group: 0;
+            -ms-flex-order: -1;
+                order: -1;
+    }
+    .intro-text {
+        padding-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+    .intro-text p {
+        margin-top: 25px;
+    }
+    .full-area {
+        padding:0;
+    }
+    .ticket-area {
+        padding-top: 50px;
+    }
+    .intro-qrcode {
+        margin-bottom: -50px;
+    }
+    .intro-qrcode {
+        height: 350px;
+    }
+    .intro-qrcode img {
+        padding-bottom: 5px;
+    }
+    .ticket-text p{
+        margin-bottom: 25px;
+    }
+    .faq-area {
+        background: #115982;
+    }
+    .faq-title {
+        margin-bottom: 25px;
+    }
+    .card-carousel{
+        margin-top: 30px;
+    }
+    .faq-area {
+        padding: 40px 0;
+    }
+    .faq-area::before {
+        width: 450px;
+        height: 450px;
+    }
+}
+
+/* max-width 620 */
+@media screen and (max-width:620px){
+    .full-area {
+        margin: 0 10px;
+    }
+    .faq-area::before {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+/* max-width 520 */
+@media screen and (max-width:520px){
+    .services-title  h2 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .services-qr img {
+        max-width: 100%;
+    }
+    .intro-qrcode {
+        height: 300px;
+    }
+    .faq-area {
+        padding-top: 70px;
+    }
+    .faq-area::before {
+        width: 300px;
+        height: 300px;
+    }
+   
+}
+
+/* max-width 420 */
+@media screen and (max-width:420px){
+    .header-content-text h2 {
+        font-size: 70px;
+        line-height: 67px;
+    }
+    .header-content-image img {
+        width: 100%;
+    }
+    .services-title  h2 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+    .faq-title h2 {
+        font-size: 60px;
+        line-height: 65px;
+        max-width: 339px;
+    }
+   
+   
+}
